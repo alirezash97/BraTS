@@ -10,7 +10,7 @@ The datasets were provided by University of Pennsylvania as part of the [BraTS c
   * In order to reduce computational complexity of the model, using a data generator, a random subvolume of size (80, 80, 16, 4) is generated from the original sample (240, 240, 155, 4).
 
 * Phase two:
-  * Based on segmented data from phase one, we trained a CNN+DNN regression model to predict patient survival time. 
+  * Based on segmented image from phase one, we trained a CNN+DNN regression model to predict patient survival time. 
 
 ## Technologies
 * Nibabel
