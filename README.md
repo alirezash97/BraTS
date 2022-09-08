@@ -9,4 +9,21 @@ The datasets were provided by University of Pennsylvania as part of the [BraTS c
   * As part of phase one of this project, a 3D unet was designed with inputs of x, y, z, and d where x and y are the width and height of the image, z is the number of slices, and d represents four types of MRI images (t1, t1c, t2, flair). 
   * In order to reduce computational complexity of the model, using the data generator, a random subvolume of size (80, 80, 16, 4) is generated from the original sample (240, 240, 155, 4).
 
+* Phase two:
+  * Based on segmented data from phase one, we trained a CNN+DNN regression model to predict patient survival time. 
+
+## Technologies
+* Nibabel
+* Tensorflow/keras
+* opencv
+* matplotlib
+* Numpy
+* Pandas
+
+## Techniques and Architectures
+* Ensemble Learning
+* U-nets
+* Residual Networks
+
+
 
