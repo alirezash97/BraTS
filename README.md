@@ -2,7 +2,7 @@
 ## Brain Tumor Segmentation in Magnetic resonance imaging (MRI) Using 3D BUNet model
 
 ## General info
-There are two phases to this project: first, a diagnosis of brain tumors by segmenting combined structural mr images (T1, T1ce, T2, FLAIR) into three parts (ET, ED, NCR/NET), and second, a prognosis. <br />
+There are two phases to this project: first, a diagnosis of brain tumors by segmenting combined structural mr images (T1, T1c, T2, FLAIR) into three parts (ET, ED, NCR/NET), and second, a prognosis. <br />
 The datasets were provided by University of Pennsylvania as part of the [BraTS challenge 2020](https://www.med.upenn.edu/cbica/brats2020/data.html). <b />
 
 * Phase one: 
